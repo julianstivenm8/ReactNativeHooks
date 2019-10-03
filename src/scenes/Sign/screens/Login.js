@@ -16,6 +16,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import { PrimaryButton } from 'ReactNativeHooks/src/components/PrimaryButton'
+
 export const Login = () => {
   return (
     <>
@@ -30,6 +32,7 @@ export const Login = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
+          <PrimaryButton/>
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>

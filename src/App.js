@@ -1,11 +1,15 @@
 import React from 'react';
 
 
-import{Login} from './scenes/Sign/screens/Login'
+import { Login } from './scenes/Sign/screens/Login'
+// import  GlobalStyle  from './styles/GlobalStyles'
 
-const App  = () => {
+const App = () => {
   return (
-   <Login/>
+    <>
+     {/* <GlobalStyle /> */}
+      <Login />
+    </>
   );
 };
 
