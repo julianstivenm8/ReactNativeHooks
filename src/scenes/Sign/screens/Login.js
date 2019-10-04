@@ -32,7 +32,7 @@ export const Login = () => {
               <Text style={styles.footer}>Engine: Hermes</Text>
             </View>
           )}
-          <PrimaryButton/>
+          
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Step One</Text>
@@ -40,6 +40,7 @@ export const Login = () => {
                 Edit <Text style={styles.highlight}>App.js</Text> to change this
                 screen and then come back to see your edits.
             </Text>
+            <PrimaryButton type={'green'}/>
             </View>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>See Your Changes</Text>

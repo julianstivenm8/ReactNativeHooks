@@ -14,6 +14,7 @@ export const SUBTITLETEXT = {
     TextAlign: null,
     alignItems: null
 };
+
 export const NORMALTEXT = {
     fontSize: 14,
     fontWeight: 400,
@@ -26,15 +27,23 @@ export const NORMALTEXT = {
     TextAlign: null,
     alignItems: null
 };
-//Color Styles
 
+//Color Styles
 export const COLOR = {
     black: '#000',
+    white: '#fff',
     gray: '#6C7076',
     orange: '#FF5B35',
     green: '#64822D'
 };
 
 //Effects Styles
-
+export const SHADOW = {
+    cart: '0px 6px 12px rgba(225, 231, 229, 0.7)',
+};
 //Grid Styles
+export const PRINCIPALGRID = {
+    marginHorizontal: '20px',
+    marginVertical:'20px',
+    marginTop:'20px'
+};
