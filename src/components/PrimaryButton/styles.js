@@ -1,6 +1,6 @@
 
 import styled from 'styled-components'
-import { SUBTITLETEXT, COLOR, SHADOW, PRINCIPALGRID } from 'ReactNativeHooks/src/constants/styles'
+import { SUBTITLETEXT, COLOR, PRINCIPALGRID } from 'ReactNativeHooks/src/constants/styles'
 
 export const TouchableOpacity = styled.TouchableOpacity`
 	width: auto;
